@@ -27,5 +27,7 @@ def execute():
 user_input = ""
 while user_input != "exit":
     user_input = input("hey user, enter num of days: ")
-    for days in user_input.split(","):
+    list_of_days = user_input.split(",")
+    print(type(list_of_days)
+    for days in list_of_days:
         execute()
